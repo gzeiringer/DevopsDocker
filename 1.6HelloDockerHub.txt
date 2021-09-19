@@ -1,0 +1,6 @@
+Navigate to Dockerhub and the the Github repo, or use the CLI button on Docker Desktop to find Password in README.md
+
+docker attach great_engelbart
+Give me the password: basics
+You found the correct password. Secret message is:
+"This is the secret message"

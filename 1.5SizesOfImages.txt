@@ -1,0 +1,14 @@
+devopsdockeruh/simple-web-service   ubuntu    4e3362e907d5   6 months ago   83MB
+devopsdockeruh/simple-web-service   alpine    fd312adc88e0   6 months ago   15.7MB
+
+gzeir@DESKTOP-GK9PDPJ MINGW64 ~
+$ docker exec -it ma1 sh
+/usr/src/app # ls
+server    text.log
+/usr/src/app # tail -f ./text.log
+2021-09-19 03:38:56 +0000 UTC
+2021-09-19 03:38:58 +0000 UTC
+2021-09-19 03:39:00 +0000 UTC
+2021-09-19 03:39:02 +0000 UTC
+2021-09-19 03:39:04 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
